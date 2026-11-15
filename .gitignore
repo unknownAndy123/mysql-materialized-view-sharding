@@ -1,0 +1,19 @@
+# Generated data (~400 MB, over GitHub's 100 MB limit) - regenerate with scripts/gen_transactions.py
+*.csv
+!results/*.csv
+
+# New benchmark output written next to the scripts
+scripts/压测结果/
+
+# Secrets
+.env
+
+# Python / OS / editor
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+__MACOSX/
+Thumbs.db
+.idea/
+.vscode/

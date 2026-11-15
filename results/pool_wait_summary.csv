@@ -1,0 +1,4 @@
+mode,pool_size,threads,ops,hold_ms,think_ms,acquire_p50_ms,acquire_p95_ms,acquire_p99_ms,acquire_max_ms,waited_pct,wall_s,tps
+direct,2,8,160,200,100,49.25,313.96,323.44,325.24,100.0,9.697,16.5
+pool,2,8,160,200,100,703.88,722.09,755.87,818.3,100.0,21.574,7.42
+pool,8,8,160,200,100,0.46,3.82,95.03,116.92,5.0,7.529,21.25
